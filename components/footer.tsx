@@ -24,7 +24,7 @@ export default function FooterMinimal() {
           href="https://www.linkedin.com/in/vishakhachangedia"
           target="_blank"
           aria-label="LinkedIn"
-          // rel="noopener noreferrer"
+          rel="noopener noreferrer"
           className="group p-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 hover:border-white transition"
         >
           <LinkedinIcon className="w-5 h-5 text-primary-foreground group-hover:text-white transition" />

@@ -41,7 +41,7 @@ export default function Contact() {
                 key={label}
                 href={href}
                 target="_blank"
-                // rel="noopener noreferrer"
+                rel="noopener noreferrer"
                 className="p-6 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300 group"
               >
                 <div className="flex items-start gap-4">
