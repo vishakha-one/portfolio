@@ -7,7 +7,7 @@ export default function Education() {
     {
       school: "Purdue University",
       degree: "Master of Engineering Management (MEM)",
-      years: "Aug 2026 – Present",
+      years: "Aug 2026 – May 2028`",
       gpa: "",
       coursework: [
         "Global Supply Chain Management",

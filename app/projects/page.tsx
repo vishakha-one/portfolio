@@ -4,6 +4,20 @@ import { Badge } from "@/components/ui/badge"
 export default function Projects() {
   const projects = [
     {
+      title: "Bayer — Product Strategy & Go-to-Market",
+      description: "Led product strategy and go-to-market validation for a new sustainable product line under NDA.",
+      tags: ["Product Strategy", "Go-to-Market", "Customer Discovery", "Business Model Validation"],
+      details:
+        "Partnered with Bayer leadership to define product strategy for a sustainable product line through business model validation, customer discovery, and design-thinking iteration. Developed recommendations to balance cost, quality, and time-to-market while translating market insight into actionable go-to-market guidance aligned with leadership priorities.",
+    },
+    {
+      title: "Landscape & Garden Supply Company — Market Entry & Channel Strategy",
+      description: "Developed expansion strategy for new markets and distribution routes across a multi-market landscape.",
+      tags: ["Market Entry", "Channel Strategy", "Supply Chain", "Competitive Analysis"],
+      details:
+        "Designed a multi-market geographic expansion strategy by evaluating retail and distribution partnerships across the supply chain. Assessed new product line viability using competitive and customer research to shape channel recommendations and support strategic market entry planning for leadership.",
+    },
+    {
       title: "Global BIC Data Consolidation & Insights",
       description: "Consolidates multi-country business code (BIC) folders into a single Excel sheet for strategic analysis.",
       tags: ["Python", "Excel", "Automation", "Business Analytics"],
