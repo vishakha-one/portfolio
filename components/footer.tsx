@@ -4,7 +4,7 @@ import { Mail, LinkedinIcon } from "lucide-react"
 
 export default function FooterMinimal() {
   const currentYear = new Date().getFullYear()
-  const lastUpdated = "December 2025"
+  const lastUpdated = "November 2026"
 
   return (
     <footer className="border-t border-border bg-primary text-primary-foreground py-8 text-center">
@@ -21,7 +21,7 @@ export default function FooterMinimal() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/vishakhachangedia"
+          href="https://www.linkedin.com/in/vishakhavc"
           target="_blank"
           aria-label="LinkedIn"
           rel="noopener noreferrer"

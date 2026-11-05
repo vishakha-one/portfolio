@@ -36,21 +36,13 @@ export default function HomePage() {
 
             <div className="space-y-4 max-w-xl text-justify">
               <p className="text-lg text-muted-foreground">
-                An engineer who enjoys solving problems, simplifying chaos,
-                and building solutions that create real impact.
+                Computer Engineer and former BNY Technology Analyst with experience owning data-driven platforms from requirements to launch and aligning cross-functional teams to deliver results.
               </p>
 
               <p className="text-lg text-muted-foreground">
-                I work at the intersection of data and systems. At BNY, I automate
-                workflows and drive AI initiatives, while my research and leadership
-                work reflect a focus on purposeful innovation.
+                I am a MEM candidate at Purdue (May 2028) seeking 2027 internships and co-ops where I can bridge engineering teams and business goals.
               </p>
 
-              <p className="text-lg text-muted-foreground">
-                Driven by curiosity, thoughtful leadership, and continuous improvement,
-                I believe engineering paired with empathy can transform how people
-                and organizations work.
-              </p>
             </div>
 
             <Button size="lg" onClick={() => router.push("/contact")}>

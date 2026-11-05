@@ -5,10 +5,23 @@ import { Card } from "@/components/ui/card"
 export default function Education() {
   const education = [
     {
+      school: "Purdue University",
+      degree: "Master of Engineering Management (MEM)",
+      years: "Aug 2026 – Present",
+      gpa: "",
+      coursework: [
+        "Global Supply Chain Management",
+        "Corporate Consulting",
+        "Engineering Leadership",
+      ],
+      achievements: [],
+    },
+    {
       school: "Vishwakarma Institute of Information Technology, Pune",
       degree: "B.Tech Computer Engineering",
       years: "2021 – 2024",
-      gpa: "CGPA: 9.26/10",
+      //gpa: "CGPA: 9.26/10",
+      gpa: "GPA: 3.9/4.0",
       coursework: [
         "Probability and Statistics",
         "Advanced Data Structures",

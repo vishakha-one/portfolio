@@ -5,7 +5,7 @@ export default function Experience() {
     {
       title: "Analyst",
       company: "BNY",
-      period: "Jul 2024 – Present",
+      period: "Jul 2024 – May 2026",
       highlights: [
         "Built executive dashboards for budgeting, headcount planning, and financial forecasting, supporting 10+ CXOs, improving reporting turnaround time by 30%, and reducing manual Excel dependency by ~40%.",
         "Developed Python-based automation pipelines and an efficient Excel data-cleaning tool, automating 15+ workflows, reducing Excel file sizes by up to 95%, and saving 8-10 hours of operational effort per week.",

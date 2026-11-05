@@ -12,8 +12,8 @@ export default function Contact() {
     },
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/vishakhavchangedia",
-      href: "https://www.linkedin.com/in/vishakhachangedia",
+      value: "linkedin.com/in/vishakhavc",
+      href: "https://www.linkedin.com/in/vishakhavc",
     },
   ]
 

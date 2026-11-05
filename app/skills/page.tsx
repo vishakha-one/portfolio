@@ -6,19 +6,66 @@ import { Button } from "@/components/ui/button"
 export default function Skills() {
   const skillCategories = [
     {
+      title: "Program Delivery",
+      skills: [
+        "Program Management",
+        "Agile/Scrum",
+        "Sprint Planning",
+        "Stakeholder Management",
+        "Risk & Dependency Management",
+        "Process Improvement",
+        "Jira",
+        "Confluence"
+      ],
+    },
+    {
+      title: "Product & Strategy",
+      skills: [
+        "Product Management",
+        "Product Roadmapping",
+        "Customer Discovery",
+        "Requirements Gathering",
+        "BRDs / User Stories",
+        "Backlog Prioritization",
+        "Go-to-Market Strategy",
+        "Market Entry & Channel Strategy",
+        "Competitive Analysis",
+        "Supply Chain Strategy"
+      ],
+    },
+    {
+      title: "Data & Analytics",
+      skills: [
+        "Power BI",
+        "Tableau",
+        "SQL",
+        "Python",
+        "Advanced Excel",
+        "ML Modeling",
+        "AI-Driven Workflow Automation",
+        "KPI Design & Executive Reporting",
+        "Root Cause Analysis"
+      ],
+    },
+    {
       title: "Technical Skills",
       skills: [
         "Python",
         "JavaScript",
         "React JS",
         "SQL",
+        "MongoDB",
         "Hadoop",
         "Kafka",
         "Data Visualization",
         "Dashboarding",
         "HTML",
         "CSS",
-        "MongoDB"
+        "Power BI",
+        "Tableau",
+        "Advanced Excel",
+        "ML Modeling",
+        "AI-Driven Workflow Automation"
       ],
     },
     {
