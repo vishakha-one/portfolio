@@ -106,7 +106,7 @@ export default function Header() {
             </Button>
 
             {/* Resume */}
-            <a href="https://drive.google.com/file/d/1wU4CqlyW5ToYDkXV3i4DhOJTNbz4bhiz/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1ThVvQEf8Ql8r68KLgM4PxIgYmKzn35el/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
               <Button size="sm" className="hidden sm:flex gap-2">
                 Resume
               </Button>
