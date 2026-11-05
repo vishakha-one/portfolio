@@ -125,24 +125,27 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <nav className="md:hidden pb-4 space-y-2 animate-in fade-in slide-in-from-top-2 duration-200">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={`
-                  block px-4 py-2 rounded-lg text-sm font-medium transition-colors whitespace-pre-line text-center
-                  ${pathname === item.href
-                    ? "text-primary font-semibold"   // ✅ ACTIVE IN MOBILE TOO
-                    : "text-foreground hover:bg-secondary"
-                  }
-                `}
-              >
-                {item.label}
-              </Link>
-            ))}
+          <nav className="md:hidden pb-4 mt-2 rounded-xl border border-border bg-background/95 shadow-lg backdrop-blur-md">
+            <div className="space-y-2 p-2">
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setIsOpen(false)}
+                  className={`
+                    block px-4 py-2 rounded-lg text-sm font-medium transition-colors whitespace-pre-line text-center
+                    ${pathname === item.href
+                      ? "text-primary font-semibold bg-primary/5"
+                      : "text-foreground hover:bg-secondary"
+                    }
+                  `}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
           </nav>
-        )}
+        )} 
       </div>
     </header>
   );
